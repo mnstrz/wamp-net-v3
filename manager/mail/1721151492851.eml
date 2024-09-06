@@ -1,0 +1,51 @@
+To: aazmuhammadnoor@gmail.com
+Subject: =?us-ascii?Q?[Wordpress_APP]_Situs_Anda_Sedang_Mengalami_Ken?=
+=?us-ascii?Q?dala_Teknis.?=
+Date: Tue, 16 Jul 2024 17:38:12 +0000
+From: WordPress <wordpress@local.wordpress.me>
+Message-ID: <fAQ4Ci9ciQ9MC11BSoUouOpa88C9rmnBiu8vouaJElc@local.wordpress.me>
+X-Mailer: PHPMailer 6.9.1 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Apa kabar!
+
+Sejak versi WordPress 5.2 ini telah disertakan fitur untuk mendeteksi apakah plugin atau tema menyebabkan eror yang fatal pada situs Anda, dan otomatis akan memberitahu Anda melalui e-mail seperti ini.
+
+Pada kasus ini, WordPress menemukan sebuah error pada salah satu dari plugin Anda, Paagez AI Generate.
+
+Pertama, kunjungi situs Anda (https://local.wordpress.me/) dan cek apakah ada masalah yang terlihat. Selanjutnya, kunjungi laman di mana kesalahan telah terdeteksi (https://local.wordpress.me/wp-admin/plugins.php?activate=true&plugin_status=all&paged=1&s=) dan cek apakah ada masalah yang terlihat.
+
+Silakan kontak penyedia layanan hosting Anda untuk bantuan investigasi masalah ini lebih lanjut.
+
+Jika situs Anda terlihat rusak dan Anda tidak bisa mengakses laman dasbor Anda secara normal, saat ini WordPress telah memiliki fitur spesial yaitu "mode pemulihan". Dengan ini, Anda bisa masuk ke dasbor Anda dan menginvestigasi lebih lanjut.
+
+https://local.wordpress.me/wp-login.php?action=enter_recovery_mode&rm_token=IeZ3kNkPMjq0vHmZrJknmO&rm_key=9afeRpvkEvlImUQVL1EYXJ
+
+Untuk membuat situs Anda aman, tautan berikut akan berakhir pada 1 hari. Namun anda tidak perlu khawatir tentang hal ini, tautan yang baru akan dikirimkan ke email Anda apabila kesalahan terjadi lagi setelah tautan berakhir.
+
+Ketika meminta bantuan terkait masalah ini, Anda mungkin akan dimintai informasi berikut:
+Versi WordPress 6.5.5
+Tema aktif: Twenty Twenty-Four (versi 1.1)
+Plugin saat ini: Paagez AI Generate (versi 1.0.0)
+Versi PHP 8.2.11
+
+
+
+Rincian Kesalahan
+=================
+Error E_ERROR disebabkan oleh kode di baris 25 dari berkas D:\Development\My\2024\wordpress_app\wp-content\plugins\paagez-ai-generate\classes\Main.php. Pesan error: Uncaught Error: Call to undefined function Paagez\AiGenerate\app\get_plugin_data() in D:\Development\My\2024\wordpress_app\wp-content\plugins\paagez-ai-generate\classes\Main.php:25
+Stack trace:
+#0 D:\Development\My\2024\wordpress_app\wp-content\plugins\paagez-ai-generate\classes\Main.php(19): Paagez\AiGenerate\app\Main->init_setting()
+#1 D:\Development\My\2024\wordpress_app\wp-includes\class-wp-hook.php(324): Paagez\AiGenerate\app\Main->Paagez\AiGenerate\app\{closure}('')
+#2 D:\Development\My\2024\wordpress_app\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Development\My\2024\wordpress_app\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 D:\Development\My\2024\wordpress_app\wp-settings.php(695): do_action('init')
+#5 D:\Development\My\2024\wordpress_app\wp-config.php(96): require_once('D:\\Development\\...')
+#6 D:\Development\My\2024\wordpress_app\wp-load.php(50): require_once('D:\\Development\\...')
+#7 D:\Development\My\2024\wordpress_app\wp-admin\admin.php(34): require_once('D:\\Development\\...')
+#8 D:\Development\My\2024\wordpress_app\wp-admin\plugins.php(10): require_once('D:\\Development\\...')
+#9 {main}
+thrown
+
+

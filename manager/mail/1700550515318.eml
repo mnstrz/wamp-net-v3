@@ -1,0 +1,39 @@
+To: aazmuhammadnoor@gmail.com
+Subject: =?us-ascii?Q?[Teachearmatic_WP]_Your_Site_is_Experiencing_a_?=
+=?us-ascii?Q?Technical_Issue?=
+Date: Tue, 21 Nov 2023 07:08:34 +0000
+From: WordPress <wordpress@wp.teachermatic.local>
+Message-ID: <li9O3ENjumjx9X4c1kMExDoVKKZytRzYDkfJAxXxdA@wp.teachermatic.local>
+X-Mailer: PHPMailer 6.8.1 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+Howdy!
+
+WordPress has a built-in feature that detects when a plugin or theme causes a fatal error on your site, and notifies you with this automated email.
+
+In this case, WordPress caught an error with one of your plugins, Teachermatic APP.
+
+First, visit your website (https://wp.teachermatic.local/) and check for any visible issues. Next, visit the page where the error was caught (https://wp.teachermatic.local/wp-admin/admin-ajax.php) and check for any visible issues.
+
+Please contact your host for assistance with investigating this issue further.
+
+If your site appears broken and you can't access your dashboard normally, WordPress now has a special "recovery mode". This lets you safely login to your dashboard and investigate further.
+
+https://wp.teachermatic.local/wp-login.php?action=enter_recovery_mode&rm_token=f4HDTlKKwdgHW1MQozjqLf&rm_key=rz4jCrtLCcVc2dR8mOL2oF
+
+To keep your site safe, this link will expire in 1 day. Don't worry about that, though: a new link will be emailed to you if the error occurs again after it expires.
+
+When seeking help with this issue, you may be asked for some of the following information:
+WordPress version 6.4.1
+Active theme: Storefront (version 4.2.0)
+Current plugin: Teachermatic APP (version 0.2)
+PHP version 8.1.2
+
+
+
+Error Details
+=============
+An error of type E_PARSE was caused in line 460 of the file D:\Development\Terus\2023\wp_teachermatic\wp-content\plugins\teachermatic-app\app\organization\form.php. Error message: syntax error, unexpected variable "$user_subscribe"
+
+

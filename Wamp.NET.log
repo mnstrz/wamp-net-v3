@@ -1,0 +1,108 @@
+[15-Sep-2023 14:20:56 UTC] PHP Warning:  file_put_contents(C:\windows\system32\drivers\etc\hosts): failed to open stream: Permission denied in D:\Development\Environment\Wamp.NET\manager\app\classes\hosts.php on line 56
+[15-Sep-2023 14:21:34 UTC] PHP Warning:  file_put_contents(C:\windows\system32\drivers\etc\hosts): failed to open stream: Permission denied in D:\Development\Environment\Wamp.NET\manager\app\classes\hosts.php on line 56
+[15-Sep-2023 14:21:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\Development\Environment\Wamp.NET\manager\app\classes\hosts.php:56) in D:\Development\Environment\Wamp.NET\manager\app\classes\response.php on line 17
+[15-Sep-2023 14:24:54 UTC] PHP Warning:  file_put_contents(C:\windows\system32\drivers\etc\hosts): failed to open stream: Permission denied in D:\Development\Environment\Wamp.NET\manager\app\classes\hosts.php on line 56
+[15-Sep-2023 14:26:03 UTC] PHP Warning:  file_put_contents(C:\windows\system32\drivers\etc\hosts): failed to open stream: Permission denied in D:\Development\Environment\Wamp.NET\manager\app\classes\hosts.php on line 56
+[15-Sep-2023 14:26:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\Development\Environment\Wamp.NET\manager\app\classes\hosts.php:56) in D:\Development\Environment\Wamp.NET\manager\app\classes\response.php on line 17
+[15-Sep-2023 14:41:31 UTC] PHP Warning:  file_put_contents(C:\windows\system32\drivers\etc\hosts): failed to open stream: Permission denied in D:\Development\Environment\Wamp.NET\manager\app\classes\hosts.php on line 56
+[15-Sep-2023 14:44:11 UTC] PHP Warning:  file_put_contents(C:\windows\system32\drivers\etc\hosts): failed to open stream: Permission denied in D:\Development\Environment\Wamp.NET\manager\app\classes\hosts.php on line 56
+[15-Sep-2023 14:44:13 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\Development\Environment\Wamp.NET\manager\app\classes\hosts.php:56) in D:\Development\Environment\Wamp.NET\manager\app\classes\response.php on line 17
+[15-Sep-2023 14:44:28 UTC] PHP Warning:  file_put_contents(C:\windows\system32\drivers\etc\hosts): failed to open stream: Permission denied in D:\Development\Environment\Wamp.NET\manager\app\classes\hosts.php on line 56
+[15-Sep-2023 14:45:08 UTC] PHP Warning:  file_put_contents(C:\windows\system32\drivers\etc\hosts): failed to open stream: Permission denied in D:\Development\Environment\Wamp.NET\manager\app\classes\hosts.php on line 56
+[15-Sep-2023 14:45:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\Development\Environment\Wamp.NET\manager\app\classes\hosts.php:56) in D:\Development\Environment\Wamp.NET\manager\app\classes\response.php on line 17
+[15-Sep-2023 14:49:48 UTC] PHP Warning:  file_put_contents(C:\windows\system32\drivers\etc\hosts): failed to open stream: Permission denied in D:\Development\Environment\Wamp.NET\manager\app\classes\hosts.php on line 56
+[15-Sep-2023 14:50:30 UTC] PHP Warning:  file_put_contents(C:\windows\system32\drivers\etc\hosts): failed to open stream: Permission denied in D:\Development\Environment\Wamp.NET\manager\app\classes\hosts.php on line 56
+[15-Sep-2023 14:50:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at D:\Development\Environment\Wamp.NET\manager\app\classes\hosts.php:56) in D:\Development\Environment\Wamp.NET\manager\app\classes\response.php on line 17
+[15-Oct-2023 03:33:14 UTC] PHP Warning:  require(D:\Development\Environment\Wamp.NET\manager/app/classes/instances/php8.2.1.php): failed to open stream: No such file or directory in D:\Development\Environment\Wamp.NET\manager\app\controllers\InstanceController.php on line 57
+[15-Oct-2023 03:33:14 UTC] PHP Fatal error:  require(): Failed opening required 'D:\Development\Environment\Wamp.NET\manager/app/classes/instances/php8.2.1.php' (include_path='.;C:\php\pear') in D:\Development\Environment\Wamp.NET\manager\app\controllers\InstanceController.php on line 57
+[16-Oct-2023 07:26:44 UTC] PHP Warning:  require(D:\Development\Environment\Wamp.NET\manager/app/classes/instances/php8.2.1.php): failed to open stream: No such file or directory in D:\Development\Environment\Wamp.NET\manager\app\controllers\InstanceController.php on line 57
+[16-Oct-2023 07:26:44 UTC] PHP Fatal error:  require(): Failed opening required 'D:\Development\Environment\Wamp.NET\manager/app/classes/instances/php8.2.1.php' (include_path='.;C:\php\pear') in D:\Development\Environment\Wamp.NET\manager\app\controllers\InstanceController.php on line 57
+[17-Oct-2023 16:59:42 UTC] PHP Warning:  require(D:\Development\Environment\Wamp.NET\manager/app/classes/instances/php8.2.1.php): failed to open stream: No such file or directory in D:\Development\Environment\Wamp.NET\manager\app\controllers\InstanceController.php on line 57
+[17-Oct-2023 16:59:42 UTC] PHP Fatal error:  require(): Failed opening required 'D:\Development\Environment\Wamp.NET\manager/app/classes/instances/php8.2.1.php' (include_path='.;C:\php\pear') in D:\Development\Environment\Wamp.NET\manager\app\controllers\InstanceController.php on line 57
+[08-Nov-2023 04:01:59 UTC] PHP Warning:  require(D:\Development\Environment\Wamp.NET\manager/app/classes/instances/php8.2.1.php): failed to open stream: No such file or directory in D:\Development\Environment\Wamp.NET\manager\app\controllers\InstanceController.php on line 57
+[08-Nov-2023 04:01:59 UTC] PHP Fatal error:  require(): Failed opening required 'D:\Development\Environment\Wamp.NET\manager/app/classes/instances/php8.2.1.php' (include_path='.;C:\php\pear') in D:\Development\Environment\Wamp.NET\manager\app\controllers\InstanceController.php on line 57
+[30-Nov-2023 04:49:48 UTC] PHP Warning:  require(D:\Development\Environment\Wamp.NET\manager/app/classes/instances/php8.2.1.php): failed to open stream: No such file or directory in D:\Development\Environment\Wamp.NET\manager\app\controllers\InstanceController.php on line 57
+[30-Nov-2023 04:49:48 UTC] PHP Fatal error:  require(): Failed opening required 'D:\Development\Environment\Wamp.NET\manager/app/classes/instances/php8.2.1.php' (include_path='.;C:\php\pear') in D:\Development\Environment\Wamp.NET\manager\app\controllers\InstanceController.php on line 57
+[17-Dec-2023 05:12:40 UTC] PHP Warning:  require(D:\Development\Environment\Wamp.NET\manager/app/classes/instances/php8.2.1.php): failed to open stream: No such file or directory in D:\Development\Environment\Wamp.NET\manager\app\controllers\InstanceController.php on line 57
+[17-Dec-2023 05:12:40 UTC] PHP Fatal error:  require(): Failed opening required 'D:\Development\Environment\Wamp.NET\manager/app/classes/instances/php8.2.1.php' (include_path='.;C:\php\pear') in D:\Development\Environment\Wamp.NET\manager\app\controllers\InstanceController.php on line 57
+[01-Feb-2024 12:37:33 UTC] PHP Warning:  require(D:\Development\Environment\Wamp.NET\manager/app/classes/instances/php8.2.1.php): failed to open stream: No such file or directory in D:\Development\Environment\Wamp.NET\manager\app\controllers\InstanceController.php on line 57
+[01-Feb-2024 12:37:33 UTC] PHP Fatal error:  require(): Failed opening required 'D:\Development\Environment\Wamp.NET\manager/app/classes/instances/php8.2.1.php' (include_path='.;C:\php\pear') in D:\Development\Environment\Wamp.NET\manager\app\controllers\InstanceController.php on line 57
+[26-Jul-2024 10:15:31 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in D:\Development\Environment\Wamp.NET\manager\app\classes\instances\mariadb.php on line 202
+[26-Jul-2024 10:22:07 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in D:\Development\Environment\Wamp.NET\manager\app\classes\instances\mariadb.php on line 205
+[26-Jul-2024 10:22:30 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in D:\Development\Environment\Wamp.NET\manager\app\classes\instances\mariadb.php on line 205
+[26-Jul-2024 10:22:40 UTC] PHP Parse error:  syntax error, unexpected '}' in D:\Development\Environment\Wamp.NET\manager\app\classes\instances\mariadb.php on line 210
+[26-Jul-2024 10:28:11 UTC] PHP Warning:  extract() expects parameter 1 to be array, bool given in D:\Development\Environment\Wamp.NET\manager\app\classes\instances\mariadb.php on line 214
+[26-Jul-2024 10:28:24 UTC] PHP Fatal error:  Uncaught Exception: Timeout waiting for process to finish in D:\Development\Environment\Wamp.NET\manager\app\classes\util.php:168
+Stack trace:
+#0 D:\Development\Environment\Wamp.NET\manager\app\classes\instances\mariadb.php(216): App\Classes\Util::sleepTillProcessDead('D:\\Development\\...')
+#1 D:\Development\Environment\Wamp.NET\manager\app\classes\instance.php(20): class@anonymous->stop()
+#2 D:\Development\Environment\Wamp.NET\manager\app\controllers\InstanceController.php(57): App\Classes\Instance->init(Array, 'stop', '13')
+#3 [internal function]: App\Controllers\InstanceController->control('13', 'stop')
+#4 D:\Development\Environment\Wamp.NET\manager\app\classes\router.php(34): call_user_func_array(Array, Array)
+#5 D:\Development\Environment\Wamp.NET\manager\public\index.php(173): App\Classes\Router->dispatch()
+#6 {main}
+  thrown in D:\Development\Environment\Wamp.NET\manager\app\classes\util.php on line 168
+[26-Jul-2024 10:28:30 UTC] PHP Warning:  extract() expects parameter 1 to be array, bool given in D:\Development\Environment\Wamp.NET\manager\app\classes\instances\mariadb.php on line 214
+[26-Jul-2024 10:28:43 UTC] PHP Fatal error:  Uncaught Exception: Timeout waiting for process to finish in D:\Development\Environment\Wamp.NET\manager\app\classes\util.php:168
+Stack trace:
+#0 D:\Development\Environment\Wamp.NET\manager\app\classes\instances\mariadb.php(216): App\Classes\Util::sleepTillProcessDead('D:\\Development\\...')
+#1 D:\Development\Environment\Wamp.NET\manager\app\classes\instance.php(194): class@anonymous->stop()
+#2 D:\Development\Environment\Wamp.NET\manager\app\classes\instance.php(20): App\Classes\Instance->restart()
+#3 D:\Development\Environment\Wamp.NET\manager\app\controllers\InstanceController.php(57): App\Classes\Instance->init(Array, 'restart', '13')
+#4 [internal function]: App\Controllers\InstanceController->control('13', 'restart')
+#5 D:\Development\Environment\Wamp.NET\manager\app\classes\router.php(34): call_user_func_array(Array, Array)
+#6 D:\Development\Environment\Wamp.NET\manager\public\index.php(173): App\Classes\Router->dispatch()
+#7 {main}
+  thrown in D:\Development\Environment\Wamp.NET\manager\app\classes\util.php on line 168
+[26-Jul-2024 10:28:46 UTC] PHP Warning:  extract() expects parameter 1 to be array, bool given in D:\Development\Environment\Wamp.NET\manager\app\classes\instances\mariadb.php on line 215
+[26-Jul-2024 10:28:59 UTC] PHP Fatal error:  Uncaught Exception: Timeout waiting for process to finish in D:\Development\Environment\Wamp.NET\manager\app\classes\util.php:168
+Stack trace:
+#0 D:\Development\Environment\Wamp.NET\manager\app\classes\instances\mariadb.php(217): App\Classes\Util::sleepTillProcessDead('D:\\Development\\...')
+#1 D:\Development\Environment\Wamp.NET\manager\app\classes\instance.php(194): class@anonymous->stop()
+#2 D:\Development\Environment\Wamp.NET\manager\app\classes\instance.php(20): App\Classes\Instance->restart()
+#3 D:\Development\Environment\Wamp.NET\manager\app\controllers\InstanceController.php(57): App\Classes\Instance->init(Array, 'restart', '13')
+#4 [internal function]: App\Controllers\InstanceController->control('13', 'restart')
+#5 D:\Development\Environment\Wamp.NET\manager\app\classes\router.php(34): call_user_func_array(Array, Array)
+#6 D:\Development\Environment\Wamp.NET\manager\public\index.php(173): App\Classes\Router->dispatch()
+#7 {main}
+  thrown in D:\Development\Environment\Wamp.NET\manager\app\classes\util.php on line 168
+[26-Jul-2024 10:32:36 UTC] PHP Fatal error:  Uncaught Exception: Timeout waiting for process to finish in D:\Development\Environment\Wamp.NET\manager\app\classes\util.php:168
+Stack trace:
+#0 D:\Development\Environment\Wamp.NET\manager\app\classes\instances\mariadb.php(216): App\Classes\Util::sleepTillProcessDead('D:\\Development\\...')
+#1 D:\Development\Environment\Wamp.NET\manager\app\classes\instance.php(20): class@anonymous->stop()
+#2 D:\Development\Environment\Wamp.NET\manager\app\controllers\InstanceController.php(57): App\Classes\Instance->init(Array, 'stop', '13')
+#3 [internal function]: App\Controllers\InstanceController->control('13', 'stop')
+#4 D:\Development\Environment\Wamp.NET\manager\app\classes\router.php(34): call_user_func_array(Array, Array)
+#5 D:\Development\Environment\Wamp.NET\manager\public\index.php(173): App\Classes\Router->dispatch()
+#6 {main}
+  thrown in D:\Development\Environment\Wamp.NET\manager\app\classes\util.php on line 168
+[26-Jul-2024 10:33:02 UTC] PHP Fatal error:  Uncaught Exception: Timeout waiting for process to finish in D:\Development\Environment\Wamp.NET\manager\app\classes\util.php:168
+Stack trace:
+#0 D:\Development\Environment\Wamp.NET\manager\app\classes\instances\mariadb.php(216): App\Classes\Util::sleepTillProcessDead('D:\\Development\\...')
+#1 D:\Development\Environment\Wamp.NET\manager\app\classes\instance.php(20): class@anonymous->stop()
+#2 D:\Development\Environment\Wamp.NET\manager\app\controllers\InstanceController.php(57): App\Classes\Instance->init(Array, 'stop', '13')
+#3 [internal function]: App\Controllers\InstanceController->control('13', 'stop')
+#4 D:\Development\Environment\Wamp.NET\manager\app\classes\router.php(34): call_user_func_array(Array, Array)
+#5 D:\Development\Environment\Wamp.NET\manager\public\index.php(173): App\Classes\Router->dispatch()
+#6 {main}
+  thrown in D:\Development\Environment\Wamp.NET\manager\app\classes\util.php on line 168
+[26-Jul-2024 10:36:41 UTC] PHP Fatal error:  Uncaught Exception: Timeout waiting for process to finish in D:\Development\Environment\Wamp.NET\manager\app\classes\util.php:168
+Stack trace:
+#0 D:\Development\Environment\Wamp.NET\manager\app\classes\instances\mariadb.php(216): App\Classes\Util::sleepTillProcessDead('D:\\Development\\...')
+#1 D:\Development\Environment\Wamp.NET\manager\app\classes\instance.php(20): class@anonymous->stop()
+#2 D:\Development\Environment\Wamp.NET\manager\app\controllers\InstanceController.php(57): App\Classes\Instance->init(Array, 'stop', '13')
+#3 [internal function]: App\Controllers\InstanceController->control('13', 'stop')
+#4 D:\Development\Environment\Wamp.NET\manager\app\classes\router.php(34): call_user_func_array(Array, Array)
+#5 D:\Development\Environment\Wamp.NET\manager\public\index.php(173): App\Classes\Router->dispatch()
+#6 {main}
+  thrown in D:\Development\Environment\Wamp.NET\manager\app\classes\util.php on line 168
+[26-Jul-2024 10:36:58 UTC] PHP Fatal error:  Uncaught Exception: Timeout waiting for process to finish in D:\Development\Environment\Wamp.NET\manager\app\classes\util.php:168
+Stack trace:
+#0 D:\Development\Environment\Wamp.NET\manager\app\classes\instances\mariadb.php(216): App\Classes\Util::sleepTillProcessDead('D:\\Development\\...')
+#1 D:\Development\Environment\Wamp.NET\manager\app\classes\instance.php(20): class@anonymous->stop()
+#2 D:\Development\Environment\Wamp.NET\manager\app\controllers\InstanceController.php(57): App\Classes\Instance->init(Array, 'stop', '13')
+#3 [internal function]: App\Controllers\InstanceController->control('13', 'stop')
+#4 D:\Development\Environment\Wamp.NET\manager\app\classes\router.php(34): call_user_func_array(Array, Array)
+#5 D:\Development\Environment\Wamp.NET\manager\public\index.php(173): App\Classes\Router->dispatch()
+#6 {main}
+  thrown in D:\Development\Environment\Wamp.NET\manager\app\classes\util.php on line 168

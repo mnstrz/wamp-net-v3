@@ -1,0 +1,538 @@
+/*/////////////////////////////////////////////////////////////////////////////
+//                                                                           //
+//  Odds and Ends                                                            //
+//                                                                           //
+/////////////////////////////////////////////////////////////////////////////*/
+
+/* cause it's hip2b² */
+*{border-radius: 0 !important;}
+
+/* cause links look kak underlined */
+a {text-decoration: none !important;}
+
+/* start alerts hidden hidden */
+.alert{display: none;}
+
+.list-group-item{border: 0; border-top: 1px solid #ebebeb !important;}
+.list-group-item:first-of-type{border-top: 0 !important}
+
+/* cause the stupid outline on everything is amateur */
+*, *::before, *::after{outline: none !important;}
+
+/* don't wrap buttons in groups */
+.btn-group-flex{display: flex; justify-content: flex-end;}
+
+/* scroll long menus*/
+.scrollable-menu{height: auto; max-height: 200px; overflow-x: hidden;}
+
+label, .side, th, .header {-webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+
+.nowrap {white-space:nowrap;}
+
+.label-default, .label-info{font-weight: normal;}
+.label-default {background: #aaa;}
+
+.tab-content .form-group:last-child{margin-bottom: 0;}
+
+/*/////////////////////////////////////////////////////////////////////////////
+//                                                                           //
+//  Layout                                                                   //
+//                                                                           //
+/////////////////////////////////////////////////////////////////////////////*/
+
+*, *::before, *::after {box-sizing: border-box;}
+
+html, body{margin: 0; padding: 0; height: 100vh; overflow: hidden; font-family: 'Play', sans-serif; background: #F9F9F9;}
+
+.site-wrapper{height: 100vh; display: grid;	grid-template-columns: 220px 1fr; grid-template-rows: 1fr; grid-template-areas: "side main";}
+.main {height: 100vh; display: grid; grid-template-columns: 1fr; grid-template-rows: auto 1fr; grid-template-areas: "header" "body"; grid-area: main;}
+
+/* effing firefox and Edge overflow padding bug */
+.body, .body-static{padding: 20px 20px 0px 20px;}
+.body::after, .body-static::after{content: ""; display: block; margin-bottom: 20px;}
+
+.body {overflow-y: auto;}
+
+.body-static {display: grid; grid-template-columns: 1fr; grid-template-rows: auto 1fr auto;	grid-template-areas: "body-static-top" "body-static-content" "body-static-bottom"; grid-area: body;}
+.body-static-top { grid-area: body-static-top;}
+.body-static-content { grid-area: body-static-content; margin-bottom: 20px;}
+.body-static-bottom { grid-area: body-static-bottom;}
+.body-static-editor{height: 100%; width: 100%; resize: none; overflow-y: auto; font-family: monospace; outline: none; border: 1px solid #e7e8e9; padding: 8px; box-shadow: none;}
+
+.header {grid-area: header; display: table; width: 100%; height: 80px; padding: 20px; background: #FFF; border-bottom: 1px solid #e7e8e9 !important;}
+.header > div:first-of-type{display: table-cell;  vertical-align: middle; font-size: 24px;}
+.header > div+div{display: table-cell; text-align: right; vertical-align: middle;}
+
+.side {grid-area: side; background: #333; apadding: 20px; position: relative;}
+.side {background-color: #333; color: #999;}
+.side a{color: #5BC0DE;}
+.side a:hover{color: white !important;}
+
+#nav ul {list-style: none; margin: 0; padding: 0;}
+#nav ul > li > a {display: block; outline: 0; color: #ccc; font-size: 16px;}
+#nav ul > li > a > i:first-child {margin-right: 10px;}
+#nav > ul > li > a {padding: 5px 20px;}
+#nav > ul > li > ul > li > a {padding: 5px 20px; background: #2d2d2d;}
+#nav a[data-toggle]::after {font-family: 'Font Awesome 5 Free'; float: right; font-weight: 900; content: "\f104";}
+#nav a[aria-expanded="true"]::after {font-weight: 900; content: "\f107";}
+#nav .mnu_active{color: white !important;}
+
+#footer{position: absolute; bottom: 0; left: 0; right: 0; padding: 10px; text-align: center;}
+
+/*/////////////////////////////////////////////////////////////////////////////
+//                                                                           //
+//  Packages                                                                 //
+//                                                                           //
+/////////////////////////////////////////////////////////////////////////////*/
+
+#package_grid{display: grid; grid-gap: 20px; grid-template-columns: repeat(6, 1fr);}
+
+@media only screen and (max-width: 2200px){#package_grid{grid-template-columns: repeat(5, 1fr);}}
+@media only screen and (max-width: 1800px){#package_grid{grid-template-columns: repeat(4, 1fr);}}
+@media only screen and (max-width: 1500px){#package_grid{grid-template-columns: repeat(3, 1fr);}}
+@media only screen and (max-width: 1100px){#package_grid{grid-template-columns: repeat(2, 1fr);}}
+@media only screen and (max-width: 800px){#package_grid{grid-template-columns: 1fr;}}
+
+.package-container {text-align: center; background: white; border: 1px solid #e7e8e9; padding: 20px;}
+.package-container h3{font-size: 20px;}
+.package-container p{font-style: italic; color: gray;}
+
+.package-icon{height: 120px; width: 120px; padding: 10px; display: inline-block; text-align: center;}
+.package-icon img{max-width: 100px; max-height: 100px;}
+
+/*/////////////////////////////////////////////////////////////////////////////
+//                                                                           //
+//  Peachy Panels                                                            //
+//                                                                           //
+/////////////////////////////////////////////////////////////////////////////*/
+
+.panel-default .panel-footer{border-top: 1px solid #e7e8e9;}
+.panel-default .panel-heading{background: #FFF !important; border-bottom: 1px solid #e7e8e9; text-transform: uppercase; color: #456;}
+.panel-default .panel-body{background: #F5F5F5 !important;}
+.panel-default {border: 1px solid #e7e8e9; box-shadow: none;}
+
+/*/////////////////////////////////////////////////////////////////////////////
+//                                                                           //
+//  Torturous Tabs                                                           //
+//                                                                           //
+/////////////////////////////////////////////////////////////////////////////*/
+
+/*.tab-content, .nav-tabs {max-width: 50% !important;}*/
+.tab-pane{padding: 20px !important;}
+.tab-content {border-left: 1px solid #e7e8e9; border-right: 1px solid #e7e8e9; border-bottom: 1px solid #e7e8e9; padding: 10px; background: #F5F5F5;}
+.nav-tabs {margin-bottom: 0; border-bottom: 1px solid #e7e8e9;}
+
+.nav-tabs > li > a:hover{background: transparent !important; border: 1px solid transparent;}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:focus
+.nav-tabs > li.active > a:visited,
+.nav-tabs > li.active > a:active{background: #F5F5F5 !important; border: 1px solid #e7e8e9 !important; border-bottom: 1px solid transparent !important;}
+
+/*/////////////////////////////////////////////////////////////////////////////
+//                                                                           //
+//  Table trials and tribulations                                            //
+//                                                                           //
+/////////////////////////////////////////////////////////////////////////////*/
+
+/* vertical align table content */
+.table > tbody > tr > td {vertical-align: middle;}
+
+/* remove default margin from bottom of table */
+.table{margin-bottom: 0 !important;}
+
+/* table header */
+.table th{background: #FFF !important; border-bottom: 1px solid #e7e8e9 !important; color: #456; font-weight: normal; text-transform: uppercase;}
+
+/* inner td borders */
+.table td{border-top: 1px solid #ebebeb !important;}
+
+/* padding and don't let content wrap */
+.table th, .table td{padding: 10px 20px !important; white-space: nowrap;}
+
+/* stripes */
+.table-striped>tbody>tr:nth-child(odd)>td {background-color: #f9f9f9;}
+.table-striped>tbody>tr:nth-child(even)>td {background-color: #f4f4f4;}
+
+/*/////////////////////////////////////////////////////////////////////////////
+//                                                                           //
+//  Form Validation                                                          //
+//                                                                           //
+/////////////////////////////////////////////////////////////////////////////*/
+
+.help-block
+{
+	padding: 0 !important;
+	margin: 0 !important;
+	margin-top: 3px !important;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////
+//                                                                           //
+//  Checkbox and Radio styling (Modified)                                    //
+//  https://github.com/flatlogic/awesome-bootstrap-checkbox                  //
+//                                                                           //
+/////////////////////////////////////////////////////////////////////////////*/
+
+.checkbox {
+	padding-left: 20px;
+}
+.checkbox label {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	padding-left: 5px;
+}
+.checkbox label::before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	left: 0;
+	margin-left: -20px;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	background-color: #fff;
+	-webkit-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+	-o-transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+	transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
+}
+.checkbox label::after {
+	display: inline-block;
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	left: 0;
+	top: 0;
+	margin-left: -20px;
+	padding-left: 3px;
+	padding-top: 1px;
+	font-size: 11px;
+	color: #555555;
+	line-height: 1.4;
+}
+.checkbox input[type="checkbox"],
+.checkbox input[type="radio"] {
+	opacity: 0;
+	z-index: 1;
+	cursor: pointer;
+}
+.checkbox input[type="checkbox"]:focus + label::before,
+.checkbox input[type="radio"]:focus + label::before {
+	outline: thin dotted;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+}
+.checkbox input[type="checkbox"]:checked + label::after,
+.checkbox input[type="radio"]:checked + label::after {
+	font-family: 'Font Awesome 5 Free';
+	content: "\f00c";
+	font-weight: 900;
+	text-align: left !important;
+}
+.checkbox input[type="checkbox"]:indeterminate + label::after,
+.checkbox input[type="radio"]:indeterminate + label::after {
+	display: block;
+	content: "";
+	width: 10px;
+	height: 3px;
+	background-color: #555555;
+	border-radius: 2px;
+	margin-left: -16.5px;
+	margin-top: 7px;
+}
+.checkbox input[type="checkbox"]:disabled,
+.checkbox input[type="radio"]:disabled {
+	cursor: not-allowed;
+}
+.checkbox input[type="checkbox"]:disabled + label,
+.checkbox input[type="radio"]:disabled + label {
+	opacity: 0.65;
+}
+.checkbox input[type="checkbox"]:disabled + label::before,
+.checkbox input[type="radio"]:disabled + label::before {
+	background-color: #eeeeee;
+	cursor: not-allowed;
+}
+.checkbox.checkbox-circle label::before {
+	border-radius: 50%;
+}
+.checkbox.checkbox-inline {
+	margin-top: 0;
+}
+
+.checkbox-primary input[type="checkbox"]:checked + label::before,
+.checkbox-primary input[type="radio"]:checked + label::before {
+	background-color: #337ab7;
+	border-color: #337ab7;
+}
+.checkbox-primary input[type="checkbox"]:checked + label::after,
+.checkbox-primary input[type="radio"]:checked + label::after {
+	color: #fff;
+}
+
+.checkbox-danger input[type="checkbox"]:checked + label::before,
+.checkbox-danger input[type="radio"]:checked + label::before {
+	background-color: #d9534f;
+	border-color: #d9534f;
+}
+.checkbox-danger input[type="checkbox"]:checked + label::after,
+.checkbox-danger input[type="radio"]:checked + label::after {
+	color: #fff;
+}
+
+.checkbox-info input[type="checkbox"]:checked + label::before,
+.checkbox-info input[type="radio"]:checked + label::before {
+	background-color: #5bc0de;
+	border-color: #5bc0de;
+}
+.checkbox-info input[type="checkbox"]:checked + label::after,
+.checkbox-info input[type="radio"]:checked + label::after {
+	color: #fff;
+}
+
+.checkbox-warning input[type="checkbox"]:checked + label::before,
+.checkbox-warning input[type="radio"]:checked + label::before {
+	background-color: #f0ad4e;
+	border-color: #f0ad4e;
+}
+.checkbox-warning input[type="checkbox"]:checked + label::after,
+.checkbox-warning input[type="radio"]:checked + label::after {
+	color: #fff;
+}
+
+.checkbox-success input[type="checkbox"]:checked + label::before,
+.checkbox-success input[type="radio"]:checked + label::before {
+	background-color: #5cb85c;
+	border-color: #5cb85c;
+}
+.checkbox-success input[type="checkbox"]:checked + label::after,
+.checkbox-success input[type="radio"]:checked + label::after {
+	color: #fff;
+}
+
+.checkbox-primary input[type="checkbox"]:indeterminate + label::before,
+.checkbox-primary input[type="radio"]:indeterminate + label::before {
+	background-color: #337ab7;
+	border-color: #337ab7;
+}
+
+.checkbox-primary input[type="checkbox"]:indeterminate + label::after,
+.checkbox-primary input[type="radio"]:indeterminate + label::after {
+	background-color: #fff;
+}
+
+.checkbox-danger input[type="checkbox"]:indeterminate + label::before,
+.checkbox-danger input[type="radio"]:indeterminate + label::before {
+	background-color: #d9534f;
+	border-color: #d9534f;
+}
+
+.checkbox-danger input[type="checkbox"]:indeterminate + label::after,
+.checkbox-danger input[type="radio"]:indeterminate + label::after {
+	background-color: #fff;
+}
+
+.checkbox-info input[type="checkbox"]:indeterminate + label::before,
+.checkbox-info input[type="radio"]:indeterminate + label::before {
+	background-color: #5bc0de;
+	border-color: #5bc0de;
+}
+
+.checkbox-info input[type="checkbox"]:indeterminate + label::after,
+.checkbox-info input[type="radio"]:indeterminate + label::after {
+	background-color: #fff;
+}
+
+.checkbox-warning input[type="checkbox"]:indeterminate + label::before,
+.checkbox-warning input[type="radio"]:indeterminate + label::before {
+	background-color: #f0ad4e;
+	border-color: #f0ad4e;
+}
+
+.checkbox-warning input[type="checkbox"]:indeterminate + label::after,
+.checkbox-warning input[type="radio"]:indeterminate + label::after {
+	background-color: #fff;
+}
+
+.checkbox-success input[type="checkbox"]:indeterminate + label::before,
+.checkbox-success input[type="radio"]:indeterminate + label::before {
+	background-color: #5cb85c;
+	border-color: #5cb85c;
+}
+
+.checkbox-success input[type="checkbox"]:indeterminate + label::after,
+.checkbox-success input[type="radio"]:indeterminate + label::after {
+	background-color: #fff;
+}
+
+.radio {
+	padding-left: 20px;
+}
+.radio label {
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+	padding-left: 5px;
+}
+.radio label::before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	width: 17px;
+	height: 17px;
+	left: 0;
+	margin-left: -20px;
+	border: 1px solid #cccccc;
+	border-radius: 50%;
+	background-color: #fff;
+	-webkit-transition: border 0.15s ease-in-out;
+	-o-transition: border 0.15s ease-in-out;
+	transition: border 0.15s ease-in-out;
+}
+.radio label::after {
+	display: inline-block;
+	position: absolute;
+	content: " ";
+	width: 11px;
+	height: 11px;
+	left: 3px;
+	top: 3px;
+	margin-left: -20px;
+	border-radius: 50%;
+	background-color: #555555;
+	-webkit-transform: scale(0, 0);
+	-ms-transform: scale(0, 0);
+	-o-transform: scale(0, 0);
+	transform: scale(0, 0);
+	-webkit-transition: -webkit-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+	-moz-transition: -moz-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+	-o-transition: -o-transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+	transition: transform 0.1s cubic-bezier(0.8, -0.33, 0.2, 1.33);
+}
+.radio input[type="radio"] {
+	opacity: 0;
+	z-index: 1;
+	cursor: pointer;
+}
+.radio input[type="radio"]:focus + label::before {
+	outline: thin dotted;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+}
+.radio input[type="radio"]:checked + label::after {
+	-webkit-transform: scale(1, 1);
+	-ms-transform: scale(1, 1);
+	-o-transform: scale(1, 1);
+	transform: scale(1, 1);
+}
+.radio input[type="radio"]:disabled {
+	cursor: not-allowed;
+}
+.radio input[type="radio"]:disabled + label {
+	opacity: 0.65;
+}
+.radio input[type="radio"]:disabled + label::before {
+	cursor: not-allowed;
+}
+.radio.radio-inline {
+	margin-top: 0;
+}
+
+.radio-primary input[type="radio"] + label::after {
+	background-color: #337ab7;
+}
+.radio-primary input[type="radio"]:checked + label::before {
+	border-color: #337ab7;
+}
+.radio-primary input[type="radio"]:checked + label::after {
+	background-color: #337ab7;
+}
+
+.radio-danger input[type="radio"] + label::after {
+	background-color: #d9534f;
+}
+.radio-danger input[type="radio"]:checked + label::before {
+	border-color: #d9534f;
+}
+.radio-danger input[type="radio"]:checked + label::after {
+	background-color: #d9534f;
+}
+
+.radio-info input[type="radio"] + label::after {
+	background-color: #5bc0de;
+}
+.radio-info input[type="radio"]:checked + label::before {
+	border-color: #5bc0de;
+}
+.radio-info input[type="radio"]:checked + label::after {
+	background-color: #5bc0de;
+}
+
+.radio-warning input[type="radio"] + label::after {
+	background-color: #f0ad4e;
+}
+.radio-warning input[type="radio"]:checked + label::before {
+	border-color: #f0ad4e;
+}
+.radio-warning input[type="radio"]:checked + label::after {
+	background-color: #f0ad4e;
+}
+
+.radio-success input[type="radio"] + label::after {
+	background-color: #5cb85c;
+}
+.radio-success input[type="radio"]:checked + label::before {
+	border-color: #5cb85c;
+}
+.radio-success input[type="radio"]:checked + label::after {
+	background-color: #5cb85c;
+}
+
+input[type="checkbox"].styled:checked + label:after,
+input[type="radio"].styled:checked + label:after {
+	font-family: 'Font Awesome 5 Free';
+	content: "\f00c";
+	font-weight: 900;
+}
+input[type="checkbox"] .styled:checked + label::before,
+input[type="radio"] .styled:checked + label::before {
+	color: #fff;
+}
+input[type="checkbox"] .styled:checked + label::after,
+input[type="radio"] .styled:checked + label::after {
+	color: #fff;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////
+//                                                                           //
+//  Google Play Font (https://google-webfonts-helper.herokuapp.com/fonts)    //
+//                                                                           //
+/////////////////////////////////////////////////////////////////////////////*/
+
+@font-face {
+	font-family: 'Play';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../webfonts/play-v11-latin-regular.eot'); /* IE9 Compat Modes */
+	src: local('Play Regular'), local('Play-Regular'),
+	url('../webfonts/play-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../webfonts/play-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../webfonts/play-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+	url('../webfonts/play-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../webfonts/play-v11-latin-regular.svg#Play') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Play';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../webfonts/play-v11-latin-700.eot'); /* IE9 Compat Modes */
+	src: local('Play Bold'), local('Play-Bold'),
+	url('../webfonts/play-v11-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	url('../webfonts/play-v11-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+	url('../webfonts/play-v11-latin-700.woff') format('woff'), /* Modern Browsers */
+	url('../webfonts/play-v11-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+	url('../webfonts/play-v11-latin-700.svg#Play') format('svg'); /* Legacy iOS */
+}

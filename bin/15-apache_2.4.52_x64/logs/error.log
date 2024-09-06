@@ -1,0 +1,31 @@
+[Thu Sep 05 10:04:19.374717 2024] [mpm_winnt:notice] [pid 36792:tid 476] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Thu Sep 05 10:04:19.376722 2024] [mpm_winnt:notice] [pid 36792:tid 476] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Thu Sep 05 10:04:19.376722 2024] [core:notice] [pid 36792:tid 476] AH00094: Command line: 'E:\\Masters\\Wamp.NET\\bin\\15-apache_2.4.52_x64\\bin\\httpd.exe -d E:/Masters/Wamp.NET/bin/15-apache_2.4.52_x64'
+[Thu Sep 05 10:04:19.385747 2024] [mpm_winnt:notice] [pid 36792:tid 476] AH00418: Parent: Created child process 15980
+[Thu Sep 05 10:04:20.045337 2024] [mpm_winnt:notice] [pid 15980:tid 504] AH00354: Child: Starting 64 worker threads.
+[Thu Sep 05 10:04:45.466090 2024] [mpm_winnt:notice] [pid 36792:tid 476] AH00428: Parent: child process 15980 exited with status 4294967295 -- Restarting.
+[Thu Sep 05 10:04:45.619747 2024] [mpm_winnt:notice] [pid 36792:tid 476] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Thu Sep 05 10:04:45.619747 2024] [mpm_winnt:notice] [pid 36792:tid 476] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Thu Sep 05 10:04:45.619747 2024] [core:notice] [pid 36792:tid 476] AH00094: Command line: 'E:\\Masters\\Wamp.NET\\bin\\15-apache_2.4.52_x64\\bin\\httpd.exe -d E:/Masters/Wamp.NET/bin/15-apache_2.4.52_x64'
+[Thu Sep 05 10:04:45.626979 2024] [mpm_winnt:notice] [pid 36792:tid 476] AH00418: Parent: Created child process 22436
+[Thu Sep 05 10:04:46.308303 2024] [mpm_winnt:notice] [pid 22436:tid 488] AH00354: Child: Starting 64 worker threads.
+[Thu Sep 05 10:04:46.412462 2024] [mpm_winnt:notice] [pid 36792:tid 476] AH00428: Parent: child process 22436 exited with status 4294967295 -- Restarting.
+[Thu Sep 05 10:04:47.457846 2024] [core:warn] [pid 39196:tid 364] AH00098: pid file E:/Masters/Wamp.NET/bin/15-apache_2.4.52_x64/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Sep 05 10:04:47.464866 2024] [mpm_winnt:notice] [pid 39196:tid 364] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Thu Sep 05 10:04:47.464866 2024] [mpm_winnt:notice] [pid 39196:tid 364] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Thu Sep 05 10:04:47.464866 2024] [core:notice] [pid 39196:tid 364] AH00094: Command line: 'E:\\Masters\\Wamp.NET\\bin\\15-apache_2.4.52_x64\\bin\\httpd.exe -d E:/Masters/Wamp.NET/bin/15-apache_2.4.52_x64'
+[Thu Sep 05 10:04:47.473890 2024] [mpm_winnt:notice] [pid 39196:tid 364] AH00418: Parent: Created child process 21480
+[Thu Sep 05 10:04:48.156586 2024] [mpm_winnt:notice] [pid 21480:tid 500] AH00354: Child: Starting 64 worker threads.
+[Thu Sep 05 10:05:03.661139 2024] [mpm_winnt:notice] [pid 39196:tid 364] AH00428: Parent: child process 21480 exited with status 4294967295 -- Restarting.
+[Thu Sep 05 10:05:05.221968 2024] [core:warn] [pid 12268:tid 100] AH00098: pid file E:/Masters/Wamp.NET/bin/15-apache_2.4.52_x64/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Sep 05 10:05:05.228038 2024] [mpm_winnt:notice] [pid 12268:tid 100] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Thu Sep 05 10:05:05.228038 2024] [mpm_winnt:notice] [pid 12268:tid 100] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Thu Sep 05 10:05:05.228038 2024] [core:notice] [pid 12268:tid 100] AH00094: Command line: 'E:\\Masters\\Wamp.NET\\bin\\15-apache_2.4.52_x64\\bin\\httpd.exe -d E:/Masters/Wamp.NET/bin/15-apache_2.4.52_x64'
+[Thu Sep 05 10:05:05.238917 2024] [mpm_winnt:notice] [pid 12268:tid 100] AH00418: Parent: Created child process 32396
+[Thu Sep 05 10:05:05.932807 2024] [mpm_winnt:notice] [pid 32396:tid 492] AH00354: Child: Starting 64 worker threads.
+[Thu Sep 05 10:05:58.127825 2024] [mpm_winnt:notice] [pid 12268:tid 100] AH00428: Parent: child process 32396 exited with status 4294967295 -- Restarting.
+[Thu Sep 05 10:05:58.695318 2024] [mpm_winnt:notice] [pid 12268:tid 100] AH00455: Apache/2.4.52 (Win64) OpenSSL/1.1.1m mod_fcgid/2.3.10-dev configured -- resuming normal operations
+[Thu Sep 05 10:05:58.695318 2024] [mpm_winnt:notice] [pid 12268:tid 100] AH00456: Apache Lounge VS16 Server built: Dec 17 2021 10:17:38
+[Thu Sep 05 10:05:58.695318 2024] [core:notice] [pid 12268:tid 100] AH00094: Command line: 'E:\\Masters\\Wamp.NET\\bin\\15-apache_2.4.52_x64\\bin\\httpd.exe -d E:/Masters/Wamp.NET/bin/15-apache_2.4.52_x64'
+[Thu Sep 05 10:05:58.702783 2024] [mpm_winnt:notice] [pid 12268:tid 100] AH00418: Parent: Created child process 11000
+[Thu Sep 05 10:05:59.406732 2024] [mpm_winnt:crit] [pid 11000:tid 528] (OS 109)The pipe has been ended.  : AH00404: Child: Unable to read socket data from parent

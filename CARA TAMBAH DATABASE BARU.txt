@@ -1,0 +1,19 @@
+- install database (download binary)
+- buka SQLlite manager/manager.db
+- tambah di table package
+
+  contoh : INSERT INTO "main"."package" ("id", "version", "class_file", "process", "conf_file", "log_file", "arch", "filehash", "vendor_id", "disabled", "filesize") VALUES (379, '11.4.2', 'mariadb.php', 'bin\mysqld.exe', 'my.ini', 'error.log', 'x64', '1ba2d0330ac83505b9cbcb53281c0950a7258fea', 2, 0, 51112738);
+
+- tambah di table instance
+
+  contoh : INSERT INTO "main"."instance" ("id", "package_id", "label", "created", "name") VALUES (13, 379, 'mariadb 11.4.2 (x64)', 1694789991, '13-mariadb_11.4.2_x64');
+
+- tambah di table endpoint
+
+  contoh : INSERT INTO "main"."endpoint" ("id", "instance_id", "proto", "interface", "port", "type") VALUES (14, 13, 'tcp', '127.0.0.1', 3313, 'mysql');
+
+- jalankan service MySQL
+- CMD ke mysql -u root -p
+- CREATE USER 'wamp'@'localhost' IDENTIFIED BY '';
+- GRANT ALL PRIVILEGES ON *.* TO 'wamp'@'localhost' WITH GRANT OPTION;
+- FLUSH PRIVILEGES;
